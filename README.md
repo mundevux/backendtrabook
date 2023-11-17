@@ -81,6 +81,6 @@ _localhost:4000/planes_\
 _localhost:4000/testimonios_\
 _localhost:4000/blog_
 
-## . Iniciar el Frontend de Trabook:
+## 6. Iniciar el Frontend de Trabook:
 
 Para iniciar el Front de la aplicación debes visitar el siguiente [enlace](www.google.com)
