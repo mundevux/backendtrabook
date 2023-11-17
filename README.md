@@ -9,7 +9,7 @@ Este proyecto corresponde al Backend realizado con Node.js, Postgresql. A contin
 Abre una terminal, copia el siguiente comando y oprime la tecla enter:
 
 ```
-git clone
+git clone https://github.com/mundevux/backendtrabook.git
 ```
 
 ## 2. Instalar las dependencias:
@@ -50,10 +50,17 @@ CREATE DATABASE trabookdb;
 
 Si la base de datos se creo correctamente en la terminas podrás ver el mensaje _CRETATE DATABASE_.
 
-## 5. Creación de tablas:
+## 5. Iniciar el servidor:
 
-Una vez creada la base de datos, en la terminal ejecuta el comando _node trabookdb.js_ y si todo esta correcto, por consola deberias ver los siguientes mensajes:
+Cuando ya se haya creado base de datos, debemos iniciar el servidor con el siguiente comando:
 
+```
+npm run dev
+```
+
+Al ejecutar el comando hara que el servidor arranque en el puerto 4000 y se creen las tablas necesarias y se inserte su respectiva información, esto se puede encontrar en el archivo _trabookdb.js_. Por esto, en la consola podras ver las siguientes salidas:
+
+_Server on port 4000_\
 _Tabla ofertas creada_\
 _Tabla planes creada_\
 _Tabla testimonios creada_\
@@ -67,21 +74,13 @@ _Inserciones completadas._
 
 Los cuales confirman que se crearon las tablas con el contenido que se enviaran al front.
 
-## 6. Iniciar el servidor:
-
-Cuando ya se hayan creado las tablas con su contenido, debemos iniciar el servidor con el siguiente comando:
-
-```
-npm run dev
-```
-
-Y dentro de la consola podras ver que el servidor se esta ejecutando el en puerto 4000m lo que quiere decir que en el navegador deberás visitar _localhost:4000_ y para verificar que este leyendo los datos de las tablas deberas visitar las siguientes rutas:
+Y para verificar que este leyendo los datos de las tablas deberas visitar las siguientes rutas:
 
 _localhost:4000/ofertas_\
 _localhost:4000/planes_\
 _localhost:4000/testimonios_\
 _localhost:4000/blog_
 
-## 7. Iniciar el Frontend de Trabook:
+## . Iniciar el Frontend de Trabook:
 
 Para iniciar el Front de la aplicación debes visitar el siguiente [enlace](www.google.com)
