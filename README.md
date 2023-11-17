@@ -83,4 +83,4 @@ _localhost:4000/blog_
 
 ## 6. Iniciar el Frontend de Trabook:
 
-Para iniciar el Front de la aplicación debes visitar el siguiente [enlace](www.google.com)
+Para iniciar el Front de la aplicación debes visitar el siguiente [enlace](https://github.com/mundevux/fronttrabook)
